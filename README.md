@@ -2,6 +2,16 @@
 
 ## 项目简介
 
+# Spring Boot + Vue 车企 DTC 数字化系统 / Java Web 毕业设计
+
+## 项目亮点
+
+- 基于 Spring Boot + Vue + MySQL 实现前后端分离开发
+- 面向车企 DTC 直连用户运营场景，业务主题明确
+- 包含用户端和后台管理端，功能模块完整
+- 覆盖车辆展示、购物车、订单、售后、论坛、公告等核心业务
+- 适合作为 Java Web 毕业设计、课程设计和 Spring Boot 实战项目参考
+
 本项目是一个基于 Spring Boot + Vue + MySQL 的车企 DTC 数字化系统，适合作为 Java Web 毕业设计、课程设计、Spring Boot 实战项目、前后端分离项目参考。
 
 关键词：Spring Boot、Vue、MySQL、Java Web、毕业设计、课程设计、汽车销售系统、DTC 系统、前后端分离、后台管理系统。

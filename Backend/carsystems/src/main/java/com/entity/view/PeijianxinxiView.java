@@ -1,0 +1,36 @@
+package com.entity.view;
+
+import com.entity.PeijianxinxiEntity;
+
+import com.baomidou.mybatisplus.annotations.TableName;
+import org.apache.commons.beanutils.BeanUtils;
+import java.lang.reflect.InvocationTargetException;
+import java.math.BigDecimal;
+
+import java.io.Serializable;
+import com.utils.EncryptUtil;
+ 
+
+/**
+ * 配件信息
+ * 后端返回视图实体辅助类
+ */
+@TableName("peijianxinxi")
+public class PeijianxinxiView  extends PeijianxinxiEntity implements Serializable {
+	private static final long serialVersionUID = 1L;
+
+	public PeijianxinxiView(){
+	}
+ 
+ 	public PeijianxinxiView(PeijianxinxiEntity peijianxinxiEntity){
+ 	try {
+			BeanUtils.copyProperties(this, peijianxinxiEntity);
+		} catch (IllegalAccessException | InvocationTargetException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+ 		
+	}
+
+
+}
